@@ -16,10 +16,11 @@
 		"react-scripts": "3.4.1"
 	},
 	"scripts": {
-		"start": "react-scripts start",
+		"start": "node /server/server.js",
+		"client": "react-scripts start",
 		"build": "react-scripts build",
 		"server": "nodemon server/server.js",
-		"dev": "concurrently \"npm run server\" \"npm run start\""
+		"dev": "concurrently \"npm run server\" \"npm run client\""
 	},
 	"eslintConfig": {
 		"extends": "react-app"
