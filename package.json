@@ -23,7 +23,8 @@
 		"client": "react-scripts start",
 		"build": "react-scripts build",
 		"server": "nodemon server/server.js",
-		"dev": "concurrently \"npm run server\" \"npm run client\""
+		"dev": "concurrently \"npm run server\" \"npm run client\"",
+		"heroku-postbuild": "npm run build"
 	},
 	"eslintConfig": {
 		"extends": "react-app"
