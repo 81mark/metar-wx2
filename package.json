@@ -16,7 +16,7 @@
 		"react-scripts": "3.4.1"
 	},
 	"scripts": {
-		"start": "node /server/server.js",
+		"start": "node server/server.js",
 		"client": "react-scripts start",
 		"build": "react-scripts build",
 		"server": "nodemon server/server.js",
