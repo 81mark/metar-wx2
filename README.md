@@ -13,6 +13,6 @@ LEMG: Malaga airport<br />
 
 ## See it in action
 
-[https://metar-wx2.netlify.app/](https://metar-wx2.netlify.app/) to view it in the browser.
+[https://metar-wx2.herokuapp.com/](https://metar-wx2.herokuapp.com/) to view it in the browser.
 
 Let me know if you have any suggestions or any issues.
